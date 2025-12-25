@@ -3,7 +3,11 @@ public class Main {
         return a + b;
     }
 
+    public static boolean isEven(int number) {
+        return number % 2 == 0;
+    }
+
     public static void main(String[] args) {
-        System.out.println("Hello, world, it's demo test!");
+        System.out.println("Hello, cross-platform Java!");
     }
 }
